@@ -18,3 +18,11 @@ To attach the full project directory, access the gpu, gui and create a container
 
   To start the conatiner: `docker start mmcv-container`
   To get into the container: `docker exec -it   -e DISPLAY=$DISPLAY   mmcv-container   /bin/bash`
+
+  apt-get install -y libgl1-mesa-glx libglib2.0-0
+
+## Dataprocess
+
+uncomment the mmcv.imshow statements to see the displays
+run `python3 dataprocess.py`
+
